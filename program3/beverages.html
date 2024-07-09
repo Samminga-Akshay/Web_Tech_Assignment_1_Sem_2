@@ -1,0 +1,211 @@
+<!--3.Program Statement: Create an HTML List with nested items with the
+following structure:
+Beverages:
+ Coffee
+ Tea
+o Black Tea
+o Green Tea
+ Milk-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: left;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            color: #007BFF;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+        h3 {
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+            color: #007BFF;
+        }
+        h4 {
+            margin-bottom: 5px;
+            font-size: 1.4rem;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 0;
+        }
+        ul li {
+            margin-bottom: 15px;
+        }
+        ul ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        ul ul ul {
+            list-style-type: circle;
+            padding-left: 30px;
+        }
+        .info {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Beverages:</h2>
+<ul>
+    <li>
+        <h3>Coffee</h3>
+        <ul>
+            <li>
+                <h4>Espresso</h4>
+                <ul>
+                    <li>
+                        <p class="info">A strong coffee brewed by forcing steam through finely-ground coffee beans.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Cappuccino</h4>
+                <ul>
+                    <li>
+                        <p class="info">An espresso-based coffee drink that originated in Italy, topped with frothy milk.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Americano</h4>
+                <ul>
+                    <li>
+                        <p class="info">A coffee drink prepared by diluting an espresso with hot water.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Latte</h4>
+                <ul>
+                    <li>
+                        <p class="info">A coffee drink made with espresso and steamed milk.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Mocha</h4>
+                <ul>
+                    <li>
+                        <p class="info">A coffee drink with chocolate flavoring, often topped with whipped cream.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Macchiato</h4>
+                <ul>
+                    <li>
+                        <p class="info">An espresso with a small amount of milk foam.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Flat White</h4>
+                <ul>
+                    <li>
+                        <p class="info">An espresso-based coffee drink with velvety microfoam milk.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Affogato</h4>
+                <ul>
+                    <li>
+                        <p class="info">A dessert coffee made by pouring hot espresso over a scoop of vanilla ice cream.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Cold Brew</h4>
+                <ul>
+                    <li>
+                        <p class="info">Coffee brewed with cold water over a long period, resulting in a smooth taste.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Iced Coffee</h4>
+                <ul>
+                    <li>
+                        <p class="info">Chilled coffee served over ice, often sweetened or flavored.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>Tea</h3>
+        <ul>
+            <li>
+                <h4>Black Tea</h4>
+                <ul>
+                    <li>
+                        <p class="info">A type of tea that is more oxidized than green, oolong, and white teas.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Green Tea</h4>
+                <ul>
+                    <li>
+                        <p class="info">A type of tea that is made from unoxidized leaves and is one of the healthiest beverages.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Oolong Tea</h4>
+                <ul>
+                    <li>
+                        <p class="info">A traditional Chinese tea known for its floral and fruity aroma.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>White Tea</h4>
+                <ul>
+                    <li>
+                        <p class="info">A delicate tea made from young leaves and buds of the tea plant.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>Herbal Tea</h4>
+                <ul>
+                    <li>
+                        <p class="info">Tea made from herbs, flowers, or spices, often enjoyed for its medicinal properties.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>Milk</h3>
+        <ul>
+            <li>
+                <p class="info">A nutrient-rich liquid produced by mammary glands of mammals.</p>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
