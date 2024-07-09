@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background for the entire page */
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft box shadow for a lifted appearance */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db; /* Blue background for headers */
+    color: white; /* White text color */
+    text-transform: uppercase; /* Uppercase text for headers */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Light blue-gray background for even rows */
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #f2f2f2; /* Lighter gray hover color */
+}
+
+/* Responsive table design */
+@media (max-width: 768px) {
+    table {
+        overflow-x: auto; /* Horizontal scroll for small screens */
+    }
+}
